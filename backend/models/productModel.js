@@ -14,6 +14,8 @@ const productSchema = new mongoose.Schema(
     numReviews: { type: Number, required: true },
   },
   {
+    /* This is used to keep track of creation and upadte time
+    for each record. */
     timestamps: true,
   }
 );
