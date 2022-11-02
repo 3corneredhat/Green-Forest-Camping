@@ -1,0 +1,21 @@
+{
+  "name": "green-forest-camping",
+  "version": "1.0.0",
+  "description": "ecommerce website for UTSA CS 3733",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install --force && cd ../frontend && npm install --force && npm run build --force",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3corneredhat/Green-Forest-Camping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3corneredhat/Green-Forest-Camping/issues"
+  },
+  "homepage": "https://github.com/3corneredhat/Green-Forest-Camping#readme"
+}
